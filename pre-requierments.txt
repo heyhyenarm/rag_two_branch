@@ -1,0 +1,10 @@
+ragas
+python-dotenv
+langchain 
+langchain-openai 
+langchain-community
+# PyPI의 faiss-gpu는 Windows wheel을 제공하지 않습니다.
+faiss-cpu
+datasets
+pymupdf
+pdfplumber
