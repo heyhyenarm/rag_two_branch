@@ -1,0 +1,28 @@
+[project]
+name = "ch3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dr.Alien", email = "narmhye@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.30",
+    "langchain-community>=0.3.31",
+    "langchain-openai>=0.3.35",
+    "langchain-teddynote>=0.5.4",
+    "pypdf>=6.19.0",
+]
+
+[project.scripts]
+ch3 = "ch3:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
